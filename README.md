@@ -32,7 +32,7 @@ node src/personagens.js
 
 ## Requisitos
 
-[Node.js](nodejs.org) instalado
+[Node.js](https://nodejs.org) instalado
 
 ## Exemplo de saída
 
