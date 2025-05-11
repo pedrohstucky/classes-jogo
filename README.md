@@ -47,6 +47,6 @@ Idade: 34
 Tipo: ninja
 O ninja Nola atacou usando shuriken
 ...
-
+```
 
 Code with ☕️ by Pedro H. Stucky
