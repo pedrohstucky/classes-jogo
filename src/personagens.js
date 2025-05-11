@@ -1,31 +1,31 @@
 const characterDatas = require('./personagens.json')
 
 class Hero{
-    constructor(nome, idade, tipo){
-        this.nome = nome
-        this.idade = idade
-        this.tipo = tipo
+    constructor(name, age, type){
+        this.name = name
+        this.age = age
+        this.type = type
     }
     
     printData(){
-        console.log(`Personagem: ${this.nome}`)
-        console.log(`Idade: ${this.idade}`)
-        console.log(`Tipo: ${this.tipo}`)
+        console.log(`Personagem: ${this.name}`)
+        console.log(`Idade: ${this.age}`)
+        console.log(`Tipo: ${this.type}`)
     }
 
     attack(){
         let attackType
-        if (this.tipo === "mago"){
+        if (this.type === "mago"){
             attackType = "magia"
-        } else if (this.tipo === "guerreiro"){
+        } else if (this.type === "guerreiro"){
             attackType = "espada"
-        } else if(this.tipo === "monge"){
+        } else if(this.type === "monge"){
             attackType = "artes marciais"
         } else {
             attackType = "shuriken"
         }
 
-        console.log(`O ${this.tipo} ${this.nome} atacou usando ${attackType}`)
+        console.log(`O ${this.type} ${this.name} atacou usando ${attackType}`)
     }
 
     main(){
