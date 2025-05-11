@@ -1,0 +1,8 @@
+{
+    "heros": {
+        "character1": ["Max", 22, "guerreiro"],
+        "character2": ["Nola", 34, "ninja"],
+        "character3": ["Linna", 18, "mago"],
+        "character4": ["Ed", 45, "monge"]
+    }
+}
